@@ -1,0 +1,83 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+body{
+  background-color: rgb(255, 255, 255);
+  line-height: 1.5em;
+}
+img{
+width: 250px;
+  max-width: 100%;
+  margin: auto ;
+  display: block;
+  padding: 0px;
+}
+h1{
+  text-align: center;
+  font-family: cursive;
+  color: rgb(255, 94, 0);
+  padding: 20px;
+}
+h2{
+  
+  font-family: cursive;
+  color: rgb(2, 0, 3);
+}
+header{
+  background-color: rgb(0, 0, 0);
+  padding: 20px; 
+}
+#mainmenu{
+  list-style: none;
+  text-align: center;
+}
+#mainmenu li{
+  display: inline-block;
+  margin: 0 5px;
+}
+#mainmenu a{
+  text-decoration: none;
+  background-color: rgb(243, 243, 243);
+  color: rgb(0, 0, 0);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+section{
+  display: flex;
+  background-color: rgb(255, 132, 0);
+}
+div{
+  width: 60%;
+  padding: 20px;
+  line-height: 1.5;
+}
+div p{
+  font-family: cursive;
+}
+aside{
+  width: 40%;
+  padding:20px ;
+}
+aside ul{
+  list-style: none;
+  margin-top: 5px;
+  
+}
+aside ul a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+}
+footer{
+  text-align: center;
+  font-family: cursive;
+  color: rgb(0, 0, 0);
+}
+aside h3{
+  font-family: cursive;
+}
+
